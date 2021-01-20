@@ -7,9 +7,6 @@ async function bodyContent(page) {
       console.log(err);
     }
   });
-
-  console.log("innertext: " + innerText);
-
   return innerText;
 }
 
