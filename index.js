@@ -1,5 +1,6 @@
 const puppeteer = require('puppeteer');
-const io = require('../io/io.js');
+const io = require('./io/io.js');
+const bodyContent = require('./features/body-content.js');
 
 init();
 
